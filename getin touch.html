@@ -1,0 +1,185 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+         }
+        nav{
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 10px 90px;
+            box-sizing: border-box;
+            background: darkgreen;
+            font-weight: bold;
+            width: 100%;
+            height: 90px;
+        }
+        nav .logo{
+            padding: 22px 20px;
+            color: #fff;
+            height: 80px;
+            font-weight: bolder;
+            font-size: large;
+            float: left;
+        }
+        nav ul{
+            list-style: none;
+            float: right;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li a{
+            line-height: 80px;
+            text-decoration: none;
+            padding: 12px 30px;
+            color: #fff;
+            font-weight: bolder;
+        }
+        nav ul li a:hover{
+               background: white;
+               border-radius: 600px;
+               color: black;
+        }
+        nav ul li a.post{
+            background: red;
+            border-radius: 600px;
+        }
+        .hilton{
+            margin-top: 10%;
+            margin-left: 35%;
+        }
+        p{
+            font-weight: bold;
+
+         }
+         .fyle{
+            background: rgb(55, 102, 55);
+            padding: 35px;
+            width: 30%;
+            border-radius: 70px 0 70px 0;
+            height: 310px;
+            margin-bottom: 7%;
+         }
+         .send{
+            margin-top: 7%;
+            display: block;
+            text-align: center;
+            color: #fff;
+            text-decoration: none;
+            text-transform: lowercase;
+            font-weight: bold;
+            background: darkgreen;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 8px;
+         }
+         input{
+            width: 97%;
+            border-radius: 5px;
+         }
+         .gogo{
+            padding: 10px;
+            border-radius: 49px;
+         }
+        footer ul{
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        
+    }
+    footer{
+        text-align: justify;
+        height: 150px;
+        width: 100%;
+        box-sizing: border-box;
+        background: #444;
+        padding: 10px 90px;
+        margin: 0;
+        padding: 0;
+    }
+    footer ul li a{
+        color: rgba(233, 21, 21, 0.24);
+        padding: 12px 30px;
+        text-decoration: none;
+        text-align: justify;
+    } 
+   footer .logo{
+        margin: auto;
+        width: 560px;
+        height: 100px;
+        line-height: 68px;
+    }
+    footer ul li a:hover{
+        color: #000;
+    }
+    .monkey{
+        background: #333;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        height: 30px;
+        
+    }
+    img{
+        width: 100%;
+        height: 350px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="web">
+        <nav>
+            <div class="logo">Health <span style="color: gold">Essential</span></div>
+            <ul>
+               <li><a class="post" href="index.html">Home</a></li>
+               <li><a href="tips.html">Tips</a></li>
+               <li><a href="getin touch.html">Join</a></li>
+               <li><a href="mailto:hiltonfyle20@gmail.com">Email</a></li>
+            </ul>
+        </nav>
+    </div> 
+    <div class="hilton">
+        <div class="fyle">
+            <h1>Get in touch!</h1>
+            <p class="email">Use the contact form below to get in touch</p>
+            <p>Name</p>
+            <input type="text" name="name" id="name" placeholder="your name">
+            <p>Email Address</p>
+            <input type="email" name="email" id="email" placeholder="your @mail">
+            <p>Website</p>
+            <input type="website" name="website" id="website">
+            <p>Subject</p>
+            <input type="text" name="subject" id="" placeholder="I just want to say hello">
+            <p>Message</p>
+            <input class="gogo" type="text" name="message" id="message" placeholder="write your message here please!">
+            <a class="send" href="mailto:hiltonfyle20@gmail.com">Send away!</a>
+        </div>
+    </div>
+    <a href="https://maps.google.com/?cid=12902619710293044841&entry=gps">
+       <img  src="T.jpg" alt="">
+    </a>
+    <footer class="footer">
+        <div class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tips.html">Event</a></li>
+                <li><a href="getin touch.html">About</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="monkey">
+            Copyright &comp;2022 Health Essentials. All Right Reserved.
+        </div>
+     </footer>
+</body>
+</html>
